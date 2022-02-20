@@ -1,4 +1,4 @@
-Java Basics 
+# Java Basics 
 
 Data Types
 Loops
