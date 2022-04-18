@@ -18,11 +18,6 @@ public class equilibriulIndex {
 
             for(int i=0; i<A.length; i++){
                 beforeSum  = sumArr(0, i-1, A) ;
-
-                for(int j=0; j< i-1; j++){
-                    System.out.println("A[i]---"+A[i]);
-                    sum = sum + A[j];
-                }
                 afterSum =  sumArr(i+1, N-1, A) ;
                 System.out.println("beforeSum---"+beforeSum);
                 System.out.println("afterSum---"+afterSum);
